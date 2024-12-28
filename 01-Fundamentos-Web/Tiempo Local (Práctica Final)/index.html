@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiempo Local</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navegación">
+        <div class="navegación título"><h1>Tiempo Local</h1></div>
+        <div class="títulos">
+          <div class="links-ciudades">
+            <a href="#" id="link"><h3>Buenos Aires</h3></a>
+            <a href="#" id="link"><h3>Ciudad de México</h3></a>
+            <a href="#" id="link"><h3>Santiago</h3></a>
+            <a href="#" id="link"><h3>Sao Paulo</h3></a>
+            <a href="#" id="link"><h3>Quito</h3></a>
+          </div>
+        </div>
+        <div class="mostrar-temperatura">
+          <span id="texttemp">Mostrar Temperatura en:</span>
+          <select name="seleccion-temp" id="seleccion-temp">
+            <option value="celcius">°C</option>
+            <option value="farenheit">°F</option>
+          </select>
+        </div>
+      </nav>
+      <main class="seccion-fichas">
+        <article class="fichas-ciudades">
+          <!--CIUDAD: BUENOS AIRES-->
+          <!--Cotiene la ciudad + info del tiempo según día-->
+          <div class="ciudad">
+            <h2>Buenos Aires</h2>
+            <div class="despliegue-ciudad">
+              <!--hoy lunes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Hoy</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">24</span><span id="grado">°C</span>
+                  <span id="temp">15</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--martes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Mañana</h2>
+                  <br />
+                  <p>Chubascos Parciales</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">14</span><span id="grado">°C</span>
+                  <span id="temp">7</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--miércoles-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/03-parcial-nublado.png" />
+                  <h2>Miércoles</h2>
+                  <br />
+                  <p>Parcialmente Nublado</p>
+                  <br />
+                  <p></p>
+                </div>
+                <div id="temperaturas-del-día">
+                  <span id="temp">13</span><span id="grado">°C</span>
+                  <span id="temp">9</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--jueves-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Jueves</h2>
+                  <br />
+                  <p>Tormenta</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">18</span><span id="grado">°C</span>
+                  <span id="temp">12</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--viernes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Viernes</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">22</span><span id="grado">°C</span>
+                  <span id="temp">12</span><span id="grado">°C</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <!--CIUDAD: CIUDAD DE MÉXICO-->
+        <article class="fichas-ciudades">
+          <!--Cotiene la ciudad + info del tiempo según día-->
+
+          <div class="ciudad">
+            <h2>Ciudad de México</h2>
+            <div class="despliegue-ciudad">
+              <!--hoy lunes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/07-lluvia.png" />
+                  <h2>Hoy</h2>
+                  <br />
+                  <p>Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">24</span><span id="grado">°C</span>
+                  <span id="temp">15</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--martes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Mañana</h2>
+                  <br />
+                  <p>Parcialmente Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">12</span><span id="grado">°C</span>
+                  <span id="temp">06</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--miércoles-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Miércoles</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">14</span><span id="grado">°C</span>
+                  <span id="temp">8</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--jueves-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Jueves</h2>
+                  <br />
+                  <p>Parcialmente Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">13</span><span id="grado">°C</span>
+                  <span id="temp">9</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--viernes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Viernes</h2>
+                  <br />
+                  <p>Tormentas</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">13</span><span id="grado">°C</span>
+                  <span id="temp">9</span><span id="grado">°C</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="fichas-ciudades">
+          <!--Cotiene la ciudad + info del tiempo según día-->
+          <!--SANTIAGO-->
+          <div class="ciudad">
+            <h2>Santiago</h2>
+            <div class="despliegue-ciudad">
+              <!--hoy lunes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/07-lluvia.png" />
+                  <h2>Hoy</h2>
+                  <br />
+                  <p>Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">12</span><span id="grado">°C</span>
+                  <span id="temp">7</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--martes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/07-lluvia.png" />
+                  <h2>Mañana</h2>
+                  <br />
+                  <p>Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">11</span><span id="grado">°C</span>
+                  <span id="temp">6</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--miércoles-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Miércoles</h2>
+                  <br />
+                  <p>Chubascos Parciales</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">14</span><span id="grado">°C</span>
+                  <span id="temp">8</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--jueves-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Jueves</h2>
+                  <br />
+                  <p>Tormentas</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">16</span><span id="grado">°C</span>
+                  <span id="temp">10</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--viernes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Viernes</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">24</span><span id="grado">°C</span>
+                  <span id="temp">12</span><span id="grado">°C</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="fichas-ciudades">
+          <!--Sao Paulo-->
+          <!--Cotiene la ciudad + info del tiempo según día-->
+
+          <div class="ciudad">
+            <h2>Sao Paulo</h2>
+            <div class="despliegue-ciudad">
+              <!--hoy lunes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/07-lluvia.png" />
+                  <h2>Hoy</h2>
+                  <br />
+                  <p>Lluvioso</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">29</span><span id="grado">°C</span>
+                  <span id="temp">13</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--martes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Mañana</h2>
+                  <br />
+                  <p>Chubascos Parciales</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">25</span><span id="grado">°C</span>
+                  <span id="temp">12</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--miércoles-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Miércoles</h2>
+                  <br />
+                  <p>Tormentas</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">24</span><span id="grado">°C</span>
+                  <span id="temp">14</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--jueves-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Jueves</h2>
+                  <br />
+                  <p>Tormentas</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">26</span><span id="grado">°C</span>
+                  <span id="temp">11</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--viernes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Viernes</h2>
+                  <br />
+                  <p>Chubascos Parciales</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">22</span><span id="grado">°C</span>
+                  <span id="temp">11</span><span id="grado">°C</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="fichas-ciudades">
+          <!--QUITO-->
+          <!--Cotiene la ciudad + info del tiempo según día-->
+
+          <div class="ciudad">
+            <h2>Quito</h2>
+            <div class="despliegue-ciudad">
+              <!--hoy lunes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Hoy</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">26</span><span id="grado">°C</span>
+                  <span id="temp">17</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--martes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img
+                    class="iconos-tiempo"
+                    src="img/02-parcial-llovizna.png"
+                  />
+                  <h2>Mañana</h2>
+                  <br />
+                  <p>Chubascos Parciales</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">18</span><span id="grado">°C</span>
+                  <span id="temp">13</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--miércoles-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/03-parcial-nublado.png" />
+                  <h2>Miércoles</h2>
+                  <br />
+                  <p>Parcialmente Nublado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">16</span><span id="grado">°C</span>
+                  <span id="temp">9</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--jueves-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/05-tormenta.png" />
+                  <h2>Jueves</h2>
+                  <br />
+                  <p>Tormentas</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">22</span><span id="grado">°C</span>
+                  <span id="temp">11</span><span id="grado">°C</span>
+                </div>
+              </figure>
+              <!--viernes-->
+              <figure class="dia-de-la-semana">
+                <div id="dia-estado">
+                  <img class="iconos-tiempo" src="img/01-soleado.png" />
+                  <h2>Viernes</h2>
+                  <br />
+                  <p>Soleado</p>
+                  <br />
+                  <p></p>
+                </div>
+
+                <div id="temperaturas-del-día">
+                  <span id="temp">30</span><span id="grado">°C</span>
+                  <span id="temp">10</span><span id="grado">°C</span>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </main>
+    </main>
+    <footer class="footer">
+      <span
+        >¡Detente! Tiempo de Cookies. Usamos cookies (tristemente, no las
+        comestibles) para personalizar contenido y anuncios, proporcionar
+        funciones de redes sociales y analizar nuestro tráfico.</span
+      >
+      <button type="button" id="boton-footer">Acepto</button>
+    </footer>
+  </body>
+</html>

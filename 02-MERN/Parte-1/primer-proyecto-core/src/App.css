@@ -1,0 +1,25 @@
+#root {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+h2 {
+  color: rgb(17, 165, 133);
+  font-size: 40px;
+}
+
+.App-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 500;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  width: 34%; /* Define un ancho específico para la lista */
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="contenedor-principal">
+      <nav class="buscador">
+        <div class="buscador col1"><h1>Petlopedia</h1></div>
+        <div class="buscador col2">
+          <input type="search" class="buscar" />
+        </div>
+        <div class="buscador col3">
+          <button type="button" id="init-session">Iniciar Sesión</button>
+        </div>
+      </nav>
+      <div class="cuerpo">
+        <div class="cuerpo col1">
+          <div class="caja-col1">
+            <h2>Gato Atigrado</h2>
+            <br />
+            <p><em>sustantivo</em></p>
+            <br />
+            <p>Plural: Gatos Atigrados</p>
+            <br />
+            <p>
+              Un gato con un pelaje distintivo que presenta rayas, puntos o
+              patrones en remolino, usualmente con una marca en forma de "M" en
+              su frente.
+            </p>
+            <br />
+            <button type="button" class="megusta" id="like-gatoatigrado">
+              22 me gusta
+            </button>
+          </div>
+          <div class="caja-col1">
+            <h2>Golden Retriever</h2>
+            <br />
+            <p><em>sustantivo</em></p>
+            <br />
+            <p>Plural: Golden Retrievers</p>
+            <br />
+            <p>
+              Una raza de perro ambiciosa, inteligente y devota, conocida por su
+              pelaje y su habilidad para recuperar objetos sin dañarlos.
+            </p>
+            <br />
+            <button type="button" class="megusta" id="like-goldenretriever">
+              45 me gusta
+            </button>
+          </div>
+        </div>
+        <div class="cuerpo col2">
+          <div class="caja-col2">
+            <p>Petlopedia está definida por TI</p>
+            <br />
+            <button id="agregardefinicion">Agregar Definición</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Inicio Modal Gato Atigrado (primer elemento Span);-->
+    <div id="Modal-1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h3>127.0.0.1:3000 dice</h3>
+        <br />
+        <p>Gato Atigrado tiene un me gusta</p>
+        <br />
+        <span class="close">OK</span>
+      </div>
+    </div>
+
+    <!--Inicio Modal Golden Retriever (segundo elemnto span)-->
+    <div id="Modal-2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h3>127.0.0.1:3000 dice</h3>
+        <br />
+        <p>Golden Retriever tiene un me gusta</p>
+        <br />
+        <span class="close">OK</span>
+      </div>
+    </div>
+  </body>
+</html>

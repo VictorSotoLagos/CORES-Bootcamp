@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jugando con JavaScript</title>
+  </head>
+  <body>
+    <h1>Juegos Simples con JavaScript</h1>
+    <p>
+      Este es un sitio muy simple visualmente, pero está cargado de divertidas
+      funcionalidades JavaScript.
+    </p>
+    <p>
+      Haz clic en <button id="toggleButton">este botón</button> para ocultar o
+      mostrar una imagen sorpresa.
+    </p>
+    <img
+      id="surpriseImage"
+      src="./CiudadFuturista.PNG"
+      style="display: none"
+      alt="Imagen Sorpresa"
+    />
+    <p>
+      Prueba este otro botón
+      <button id="resizeButton">Cambiar tamaño</button> para cambiar el tamaño
+      de la imagen.
+    </p>
+    <script>
+      document.getElementById("toggleButton").onclick = () => {
+        var img = document.getElementById("surpriseImage");
+        img.style.display = img.style.display === "none" ? "block" : "none";
+      };
+      document.getElementById("resizeButton").onclick = () => {
+        var img = document.getElementById("surpriseImage");
+        img.style.width = img.style.width === "150px" ? "300px" : "150px";
+      };
+    </script>
+  </body>
+</html>

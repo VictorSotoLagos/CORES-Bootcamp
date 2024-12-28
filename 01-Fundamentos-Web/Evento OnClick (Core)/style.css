@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-principal {
+  width: 1400px;
+  margin: 30px;
+}
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(165, 165, 165);
+  padding: 10px;
+}
+
+.buscador .col1 {
+  flex: 1;
+}
+
+.buscador .col2 {
+  flex: 4;
+  width: 100%;
+}
+
+.buscador .col3 {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.buscar {
+  width: 80%;
+}
+
+/*Estilo Botones*/
+
+#init-session {
+  background-color: rgb(35, 108, 210);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  padding: 7px 10px 7px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px black;
+}
+
+#agregardefinicion {
+  background-color: rgb(13, 121, 58);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  padding: 7px 80px 7px 80px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px black;
+}
+
+.megusta {
+  background-color: rgb(255, 248, 149);
+  color: rgb(18, 17, 17);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 7px 10px 7px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px black;
+}
+
+.cuerpo {
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cuerpo .col1 {
+  flex: 2;
+  max-width: max-content;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.cuerpo .col2 {
+  flex: 1;
+  align-items: flex-start;
+}
+
+.caja-col1 {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 5px 5px 5px;
+  margin: 0px 20px 20px 0px;
+}
+
+.caja-col2 {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+}
+
+/* Estilo de los MODAL*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% desde el top y centrado (auto)*/
+  padding: 20px;
+  border: 0px solid #888;
+  border-radius: 10px;
+  width: 50%; /* Could be more or less, depending on screen size */
+  box-shadow: 0px 0px 5px black;
+}
+
+/* Botón Cerrar */
+.close {
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 35px;
+  float: right;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

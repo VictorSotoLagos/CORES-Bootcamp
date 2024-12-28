@@ -1,0 +1,52 @@
+.actualizar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+}
+
+.actualizar-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.actualizar-form input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.actualizar-form textarea {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.boton-guardar {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.boton-guardar:hover {
+  background-color: #df7802;
+}

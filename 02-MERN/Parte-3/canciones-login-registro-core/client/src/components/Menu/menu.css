@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+  font-style: normal;
+}
+
+.nav-link:hover {
+  color: rgb(255, 181, 10);
+}
+
+.nav-link-on {
+  color: rgb(255, 181, 10);
+}

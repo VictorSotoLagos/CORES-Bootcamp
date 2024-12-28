@@ -1,0 +1,21 @@
+.tarjeta {
+  border: 1px solid black;
+  box-shadow: 0px 1px 8px 0px rgba(111, 111, 111, 0.75);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.conjunto-tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.stock {
+  color: green;
+}

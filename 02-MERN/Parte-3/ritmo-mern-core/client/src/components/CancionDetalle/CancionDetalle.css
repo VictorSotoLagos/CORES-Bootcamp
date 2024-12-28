@@ -1,0 +1,39 @@
+.botonEliminar {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.botonEliminar:hover {
+  background-color: #df7802;
+}
+
+.botonActualizar {
+  background-color: rgb(80, 80, 174);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.botonActualizar:hover {
+  background-color: #df7802;
+}
+
+.detalleCancion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

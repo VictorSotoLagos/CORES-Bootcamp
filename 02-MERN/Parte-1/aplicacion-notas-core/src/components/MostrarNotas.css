@@ -1,0 +1,23 @@
+.nota {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0px 1px 8px 0px rgba(111, 111, 111, 0.75);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contenido-nota {
+  align-items: flex-start;
+  vertical-align: center;
+  line-height: normal;
+  margin: 10px 10px;
+  text-align: left;
+}
+
+.botonEliminar {
+  background-color: rgb(241, 28, 20);
+  color: white;
+}

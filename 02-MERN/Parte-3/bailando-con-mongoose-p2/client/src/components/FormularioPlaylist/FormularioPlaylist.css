@@ -1,0 +1,54 @@
+.crearPlaylist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nombre-playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.nombre-playlist input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.boton-crear-playlist {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.listado-canciones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  line-height: 5px;
+}
+
+.listado-canciones ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.boton-crear-playlist:hover {
+  background-color: #df7802;
+}

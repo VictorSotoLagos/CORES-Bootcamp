@@ -1,0 +1,11 @@
+.obras-lista li {
+  list-style: none;
+}
+
+.link {
+  color: green;
+}
+
+.link:hover {
+  color: rgb(255, 119, 0);
+}

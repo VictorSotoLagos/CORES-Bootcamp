@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  max-width: 1300px;
+  padding: 10px;
+  margin: 0;
+  align-items: left;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.main-container {
+  width: 50%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

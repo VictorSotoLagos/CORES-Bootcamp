@@ -1,0 +1,35 @@
+.actualizar-cancion {
+  display: flex;
+  flex-direction: column;
+}
+
+.actualizar-cancion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actualizar-cancion input {
+  margin: 0px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.boton-guardar {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.boton-guardar:hover {
+  background-color: #df7802;
+}

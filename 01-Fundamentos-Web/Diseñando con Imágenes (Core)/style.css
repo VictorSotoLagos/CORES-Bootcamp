@@ -1,0 +1,48 @@
+.contenedor {
+    height: 800px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rectangulo-1 {
+    height: 200px;
+    width: 900px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rectangulo-2 {
+    height: 200px;
+    width: 900px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rectangulo-3 {
+    height: 200px;
+    width: 900px;
+    background-color: rgb(243, 90, 47);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rectangulo-4 {
+    height: 50px;
+    width: 900px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
